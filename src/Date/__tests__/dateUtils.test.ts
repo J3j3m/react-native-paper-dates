@@ -1,4 +1,4 @@
-import { addMonths, getGridCountForDate } from './dateUtils'
+import { addMonths, getGridCountForDate } from '../dateUtils'
 
 test('gridCounts contains the right data for October 2021', () => {
   const gridCount = getGridCountForDate(

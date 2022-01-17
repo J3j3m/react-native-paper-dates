@@ -1,0 +1,721 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AmPmSwitcher should not update hours when selected 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    testID="hours"
+  >
+    17
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderWidth": 1,
+          "height": 80,
+          "overflow": "hidden",
+          "width": 50,
+        },
+        Object {
+          "borderColor": "#282828",
+          "borderRadius": 4,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="AM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(255, 255, 255, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          AM
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 1,
+            "width": 48,
+          },
+          Object {
+            "backgroundColor": "#282828",
+          },
+        ]
+      }
+    />
+    <View
+      accessibilityLabel="PM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#BB86FC",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(255, 255, 255, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          PM
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`AmPmSwitcher should not update hours when selected 2`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    testID="hours"
+  >
+    5
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderWidth": 1,
+          "height": 80,
+          "overflow": "hidden",
+          "width": 50,
+        },
+        Object {
+          "borderColor": "#282828",
+          "borderRadius": 4,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="AM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#BB86FC",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(255, 255, 255, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          AM
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 1,
+            "width": 48,
+          },
+          Object {
+            "backgroundColor": "#282828",
+          },
+        ]
+      }
+    />
+    <View
+      accessibilityLabel="PM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#ffffff",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(255, 255, 255, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          PM
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`AmPmSwitcher should update hours when selected for 12 and 24 hours 1`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    testID="hours"
+  >
+    24
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderWidth": 1,
+          "height": 80,
+          "overflow": "hidden",
+          "width": 50,
+        },
+        Object {
+          "borderColor": "#E6E6E6",
+          "borderRadius": 4,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="AM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          AM
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 1,
+            "width": 48,
+          },
+          Object {
+            "backgroundColor": "#E6E6E6",
+          },
+        ]
+      }
+    />
+    <View
+      accessibilityLabel="PM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#EBDDFF",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "#6200ee",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          PM
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`AmPmSwitcher should update hours when selected for 12 and 24 hours 2`] = `
+<View
+  collapsable={false}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Text
+    testID="hours"
+  >
+    12
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderWidth": 1,
+          "height": 80,
+          "overflow": "hidden",
+          "width": 50,
+        },
+        Object {
+          "borderColor": "#E6E6E6",
+          "borderRadius": 4,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="AM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": true,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#EBDDFF",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "#6200ee",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          AM
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "height": 1,
+            "width": 48,
+          },
+          Object {
+            "backgroundColor": "#E6E6E6",
+          },
+        ]
+      }
+    />
+    <View
+      accessibilityLabel="PM"
+      accessibilityRole="button"
+      accessibilityState={
+        Object {
+          "disabled": false,
+        }
+      }
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          false,
+          Object {
+            "flex": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "#ffffff",
+            },
+          ]
+        }
+      >
+        <Text
+          selectable={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "color": "rgba(0, 0, 0, 0.54)",
+                  "fontFamily": "System",
+                  "fontWeight": "500",
+                },
+              ],
+            ]
+          }
+        >
+          PM
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

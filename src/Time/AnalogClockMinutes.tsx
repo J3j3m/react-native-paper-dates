@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   textWhite: { color: '#fff' },
 })
 
-function getMinuteNumbers(size: number, count: number) {
+export function getMinuteNumbers(size: number, count: number) {
   let angle = 0
   let step = (2 * Math.PI) / count
   let radius = size / 2.5

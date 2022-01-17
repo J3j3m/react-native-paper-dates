@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   innerHourText: { fontSize: 13 },
 })
 
-function getHourNumbers(
+export function getHourNumbers(
   is24Hour: boolean,
   size: number,
   count: number,
